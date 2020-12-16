@@ -1,0 +1,62 @@
+
+
+.PaginaBOKU{
+    background: url(img/animeImagen.jpg);
+    background-attachment: fixed;
+}
+
+button{
+    padding: 20px;
+    background: black;
+    color: white;
+    border: black 3px solid;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.pokemon-list{
+    text-align:center;
+    margin:100px;
+    padding:50px;
+    font-size: 25px;
+    font-family: "Latin Modern Roman 10";
+    color: white;
+    background: url(img/lucesJapan.jpg);
+    background-attachment: fixed;
+    opacity: 0.8;
+    box-shadow: 20px 20px 20px 20px rgb(224, 219, 219);
+    border-radius: 40px;
+    font-weight: 900;
+    
+}
+
+.pokemon-list:hover{
+    opacity: 1;
+}
+
+.imagen {
+    text-align: center;
+}
+
+
+h1{
+
+    text-align: center;
+    font-size: 70px;
+    color: darkorange;
+    padding: 45px;
+    font-weight: 900;
+    font-family: "Latin Modern Roman 10";
+    background: -webkit-linear-gradient(left top, red, yellow);
+    background: linear-gradient(to bottom right, red, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
